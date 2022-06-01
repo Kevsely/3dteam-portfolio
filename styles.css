@@ -33,7 +33,7 @@ body {
 }
 
 /* Background Panorama */
-.panorama-player {
+#panorama-player {
     width: 100%;
     height: 100%;
 }
