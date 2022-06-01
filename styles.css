@@ -52,7 +52,7 @@ body {
 }
 
 /* Left Menu */
-.left-menu {
+#left-menu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,7 +68,7 @@ body {
     transition: 1s;
 }
 
-.left-menu:hover {
+#left-menu:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -164,7 +164,7 @@ body {
 }
 
 /* Right Side Menu */
-.right-menu {
+#right-menu {
     transform: rotate(180deg);
     display: flex;
     flex-direction: column;
@@ -181,11 +181,11 @@ body {
     transition: 1s;
 }
 
-.right-menu:hover {
+#right-menu:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.right-menu div {
+#right-menu div {
     writing-mode: vertical-lr;
     text-transform: uppercase;
 
@@ -193,7 +193,7 @@ body {
     padding-right: 5px;
 }
 
-.right-menu div:hover {
+#right-menu div:hover {
     cursor: pointer;
     color: var(--primary-color-active);
     animation: scale-up-center 1.5s ease-in-out 1s infinite alternate both;
