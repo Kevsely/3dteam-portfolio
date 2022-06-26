@@ -41,12 +41,12 @@ window.addEventListener("mousedown", resetIdleTimer)
 window.addEventListener("touchstart", resetIdleTimer)
 window.addEventListener("click", resetIdleTimer)
 window.addEventListener("keypress", resetIdleTimer)
-panoramaPlayer.contentWindow.addEventListener("load", resetIdleTimer)
-panoramaPlayer.contentWindow.addEventListener("mousemove", resetIdleTimer)
-panoramaPlayer.contentWindow.addEventListener("mousedown", resetIdleTimer)
-panoramaPlayer.contentWindow.addEventListener("touchstart", resetIdleTimer)
-panoramaPlayer.contentWindow.addEventListener("click", resetIdleTimer)
-panoramaPlayer.contentWindow.addEventListener("keypress", resetIdleTimer)
+// panoramaPlayer.contentWindow.addEventListener("load", resetIdleTimer)
+// panoramaPlayer.contentWindow.addEventListener("mousemove", resetIdleTimer)
+// panoramaPlayer.contentWindow.addEventListener("mousedown", resetIdleTimer)
+// panoramaPlayer.contentWindow.addEventListener("touchstart", resetIdleTimer)
+// panoramaPlayer.contentWindow.addEventListener("click", resetIdleTimer)
+// panoramaPlayer.contentWindow.addEventListener("keypress", resetIdleTimer)
 
 //On Load
-particlesJS.load('particles-js', 'assets/particles/particles.config.json');
+particlesJS.load('particles-layer', 'assets/particles/particles.config.json');
