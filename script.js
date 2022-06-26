@@ -1,6 +1,6 @@
 // DOM Elements
 panoramaPlayer = document.getElementById("panorama-player")
-particlesLayer = document.getElementById("particles-js")
+particlesLayer = document.getElementById("particles-layer")
 leftMenu = document.getElementById("left-menu")
 rightMenu = document.getElementById("right-menu")
 
