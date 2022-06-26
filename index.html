@@ -12,16 +12,15 @@
 </head>
 <body>
     <!-- Backouground Panorama -->
-    <iframe src="./background-panorama/index.html" frameborder="0" id="panorama-player"></iframe>
+    <div id="panorama-player">
+        <br>Loading...<br><br>
+    </div>
 
     <!-- Background Animation -->
     <div id="particles-layer">
         <div><span>3D Team</span></div>
         <div><span>Nous faisons de vos rêves...</span></div>
         <div><span>...une réalité</span></div>
-        
-        
-        
     </div>
     
     <!-- Left Menu -->
@@ -55,7 +54,12 @@
     </div>
     
     <!-- Scripts -->
+    <!-- Pano Viewer -->
+    <script type="text/javascript" src="background-panorama/pano2vr_player.js"></script>
+    <script type="text/javascript" src="background-panorama/skin.js"></script>
+    <!-- Particles JS -->
     <script src="assets/particles/particles.min.js"></script>
+    <!-- Custom script -->
     <script src="script.js"></script>
 </body>
 </html>

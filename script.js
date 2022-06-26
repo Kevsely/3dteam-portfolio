@@ -1,5 +1,4 @@
 // DOM Elements
-panoramaPlayer = document.getElementById("panorama-player")
 particlesLayer = document.getElementById("particles-layer")
 leftMenu = document.getElementById("left-menu")
 rightMenu = document.getElementById("right-menu")
@@ -41,12 +40,17 @@ window.addEventListener("mousedown", resetIdleTimer)
 window.addEventListener("touchstart", resetIdleTimer)
 window.addEventListener("click", resetIdleTimer)
 window.addEventListener("keypress", resetIdleTimer)
-// panoramaPlayer.contentWindow.addEventListener("load", resetIdleTimer)
-// panoramaPlayer.contentWindow.addEventListener("mousemove", resetIdleTimer)
-// panoramaPlayer.contentWindow.addEventListener("mousedown", resetIdleTimer)
-// panoramaPlayer.contentWindow.addEventListener("touchstart", resetIdleTimer)
-// panoramaPlayer.contentWindow.addEventListener("click", resetIdleTimer)
-// panoramaPlayer.contentWindow.addEventListener("keypress", resetIdleTimer)
 
 //On Load
+// 1 --------------
+// create the panorama player with the container
+pano=new pano2vrPlayer("panorama-player");
+// add the skin object
+skin=new pano2vrSkin(pano);
+// load the configuration
+window.addEventListener("load", function() {
+  pano.readConfigUrlAsync("background-panorama/pano.xml");
+});
+
+// 2 -------------
 particlesJS.load('particles-layer', 'assets/particles/particles.config.json');
