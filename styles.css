@@ -20,7 +20,11 @@ body {
     letter-spacing: 3px;
 }
 
-/* Animations */
+/*------------------------------------
+--------------------------------------
+ANIMATIONS 
+--------------------------------------
+------------------------------------*/
 @keyframes scale-up-center {
     0% {
         -webkit-transform: scale(1);
@@ -32,7 +36,11 @@ body {
     }
 }
 
-/* Background Panorama */
+/*------------------------------------
+--------------------------------------
+PANORAMA BACKGROUND 
+--------------------------------------
+------------------------------------*/
 #panorama-player {
     position: absolute;
     z-index: 0;
@@ -44,7 +52,11 @@ body {
 }
 
 
-/* Background Animation */
+/*------------------------------------
+--------------------------------------
+BACKGROUND ANIMATION 
+--------------------------------------
+------------------------------------*/
 #particles-layer {
     position: absolute;
     top: 0;
@@ -57,7 +69,18 @@ body {
     cursor: pointer;
 }
 
-/* Left Menu */
+#particles-layer .text {
+    margin-left: 5rem;
+    width: 50%;
+    font-size: 30px;
+    
+}
+
+/*------------------------------------
+--------------------------------------
+LEFT SIDE MENU 
+--------------------------------------
+------------------------------------*/
 #left-menu {
     display: flex;
     flex-direction: column;
@@ -169,7 +192,11 @@ body {
     color: var(--primary-color-active);
 }
 
-/* Right Side Menu */
+/*------------------------------------
+--------------------------------------
+RIGHT SIDE MENU 
+--------------------------------------
+------------------------------------*/
 #right-menu {
     transform: rotate(180deg);
     display: flex;
@@ -204,3 +231,5 @@ body {
     color: var(--primary-color-active);
     animation: scale-up-center 1.5s ease-in-out 1s infinite alternate both;
 }
+
+

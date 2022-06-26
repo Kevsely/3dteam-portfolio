@@ -49,7 +49,7 @@ pano=new pano2vrPlayer("panorama-player");
 skin=new pano2vrSkin(pano);
 // load the configuration
 window.addEventListener("load", function() {
-  pano.readConfigUrlAsync("background-panorama/pano.xml");
+  pano.readConfigUrlAsync("assets/background-panorama/pano.xml");
 });
 
 // 2 -------------
